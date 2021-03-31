@@ -19,5 +19,12 @@ class testasumar {
 		String resultado = nega.sumativo("-1");
 		assertNull(resultado);
 	}
+	
+	@Test
+	public void testvariascifras() {
+		asumar varias = new asumar();
+		String resultado = varias.sumativo("958");
+		assertEquals("958 = 9+5+8=22",resultado);
+	}
 
 }
