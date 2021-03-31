@@ -6,8 +6,10 @@ public class asumar {
 		String numero = cad;
 		if (numero.length()==1) {
 			return (numero+" = "+numero);
+		} else if(numero.startsWith("-")){
+			return null;
 		}
-		return numero;
+		return "Parametros incorrectos";
 	}
 
 }

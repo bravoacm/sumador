@@ -12,5 +12,12 @@ class testasumar {
 		String resultado = sumi.sumativo("5");
 		assertEquals("5 = 5",resultado);
 	}
+	
+	@Test
+	public void testnegativo() {
+		asumar nega = new asumar();
+		String resultado = nega.sumativo("-1");
+		assertNull(resultado);
+	}
 
 }
