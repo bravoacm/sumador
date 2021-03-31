@@ -7,8 +7,10 @@ import org.junit.jupiter.api.Test;
 class testasumar {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void testunacifra() {
+		asumar sumi = new asumar();
+		String resultado = sumi.sumativo("5");
+		assertEquals("5 = 5",resultado);
 	}
 
 }
